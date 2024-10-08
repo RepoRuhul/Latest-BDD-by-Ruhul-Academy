@@ -305,11 +305,11 @@ public class NewUserRegistration {
 	}
 
 	public void validate_step_two() {
-		inputText(firstName, "Moha'mm-ad Md");
+		inputText(firstName, "Moha'mm-ad ");
 		pause(3000);
-		inputText(middleName, "To'fael Ka-bir");
+		inputText(middleName, "Ru'hul Ku-ddus");
 		pause(3000);
-		inputText(lastName, "S'- harkar");
+		inputText(lastName, "R'- a n a");
 		pause(3000);
 		selectDropdown(suffix, "SR");
 		pause(3000);
@@ -328,9 +328,9 @@ public class NewUserRegistration {
 		pause(3000);
 		selectDropdown(state, "New York");
 		pause(3000);
-		inputText(zipCode, "10019");
+		inputText(zipCode, "14215");
 		pause(3000);
-		inputText(zipCodeExt, "1001");
+		inputText(zipCodeExt, "1118");
 		pause(3000);
 		inputText(email, "tofael483@gmail.com");
 		pause(3000);

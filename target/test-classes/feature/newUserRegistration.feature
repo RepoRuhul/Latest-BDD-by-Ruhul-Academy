@@ -1,4 +1,4 @@
-#Author: tofael483@gmail.com
+#Author: Ruhul
 #Date: October 10th, 2024
 @newUserRegistration
 Feature: As an user
