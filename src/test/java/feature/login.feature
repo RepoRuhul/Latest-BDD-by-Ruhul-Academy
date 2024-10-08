@@ -48,6 +48,15 @@ Feature: Log In
     And User click the check box of I agree to the Terms and Conditions
     And User finally click on Login Button
     Then User will navigate to multi factor authentication modal
+    
+	@performance
+  Scenario: Login with fixed Valid Credential
+    When User enter UserId as 'Narima.tushty@gmail.com'
+    And User enter Password as 'Login@123456789'
+    And User click the check box of I agree to the Terms and Conditions
+    And User finally click on Login Button
+    Then User will navigate to multi factor authentication modal
+	
 	
 	
 	@smoke
