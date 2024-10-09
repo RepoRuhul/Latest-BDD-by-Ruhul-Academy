@@ -307,9 +307,9 @@ public class NewUserRegistration {
 	public void validate_step_two() {
 		inputText(firstName, "Moha'mm-ad Md");
 		pause(3000);
-		inputText(middleName, "To'fael Ka-bir");
+		inputText(middleName, "Ru'hul - kuddus");
 		pause(3000);
-		inputText(lastName, "S'- harkar");
+		inputText(lastName, "Ra'- na");
 		pause(3000);
 		selectDropdown(suffix, "SR");
 		pause(3000);
@@ -317,7 +317,7 @@ public class NewUserRegistration {
 		pause(3000);
 		selectDropdown(birthDate, "28");
 		pause(3000);
-		selectDropdown(birthYear, "1975");
+		selectDropdown(birthYear, "1982");
 		pause(3000);
 		scrollIntoViewToTheElementUsingJavascriptExecutor(driver, nextButtonStep2);
 		inputText(addressLine1, "6.1E 97th-s S_t, 66");
@@ -328,15 +328,15 @@ public class NewUserRegistration {
 		pause(3000);
 		selectDropdown(state, "New York");
 		pause(3000);
-		inputText(zipCode, "10019");
+		inputText(zipCode, "14215");
 		pause(3000);
 		inputText(zipCodeExt, "1001");
 		pause(3000);
-		inputText(email, "tofael483@gmail.com");
+		inputText(email, "mdrhlkdus@gmail.com");
 		pause(3000);
-		inputText(confirmEmail, "tofael483@gmail.com");
+		inputText(confirmEmail, "mdrhlkdus@gmail.com");
 		pause(3000);
-		inputText(phoneNumber, "9293016028");
+		inputText(phoneNumber, "7163144577");
 		pause(3000);
 	}
 
